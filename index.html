@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Tree Wisecard — Coming Soon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .display-font {
+        font-family: "DM Serif Display", Georgia, serif;
+      }
+    </style>
+    <!-- Tailwind CSS CDN for fast, modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="min-h-screen flex flex-col bg-[#e8f1e7] text-[#183b2b] selection:bg-[#cce9d3] selection:text-[#183b2b]"
+  >
+    <header
+      class="w-full max-w-6xl mx-auto px-6 py-6 flex items-center justify-between"
+    >
+      <a
+        href="#"
+        class="flex items-center gap-2 text-lg font-semibold tracking-wide"
+        aria-label="The Tree home"
+      >
+        <img
+          src="tree.jpg"
+          alt="Coconut palm on a small island"
+          class="h-8 w-8 rounded-full border border-[#a9cbb1] object-cover"
+        />
+        <span>The Tree</span>
+      </a>
+      <span class="text-sm font-medium text-[#52735e]">Coming soon</span>
+    </header>
+
+    <main
+      class="flex-grow flex flex-col items-center justify-center px-6 py-12 text-center"
+    >
+      <div
+        class="w-full max-w-xs sm:max-w-sm mb-10 -rotate-2 rounded-2xl border border-[#c5dfcb] bg-[#e5f3e8] p-5 text-left shadow-[0_14px_35px_rgba(42,91,58,0.08)]"
+      >
+        <div class="flex items-start justify-between">
+          <div>
+            <p
+              class="text-xs font-semibold uppercase tracking-widest text-[#52735e]"
+            >
+              The Tree
+            </p>
+            <p class="mt-1 text-sm font-medium text-[#183b2b]">Wisecard</p>
+          </div>
+          <img
+            src="tree.jpg"
+            alt="Coconut palm on a small island"
+            class="h-10 w-10 rounded-full border border-[#a9cbb1] object-cover"
+          />
+        </div>
+        <div class="mt-9 flex items-end justify-between">
+          <span class="text-sm tracking-[0.2em] text-[#52735e]"
+            >•••• &nbsp; •••• &nbsp; •••• &nbsp; 2048</span
+          >
+          <span class="text-xs font-medium uppercase text-[#52735e]"
+            >Credit</span
+          >
+        </div>
+      </div>
+
+      <div
+        class="mb-5 inline-flex items-center rounded-full border border-[#d4e8d8] bg-[#f7faf5] px-3 py-1 text-sm font-medium text-[#52735e]"
+      >
+        If your dad was a credit card, he’d be this one.
+      </div>
+
+      <h1
+        class="display-font mb-5 max-w-3xl text-4xl leading-tight text-[#183b2b] sm:text-6xl"
+      >
+        The only card brave enough to tell you no.
+      </h1>
+
+      <p class="mb-9 max-w-xl text-lg leading-relaxed text-[#647a6a]">
+        Impulse buy? Wisecard helps you pause. It says no to debt that weighs
+        you down, so more of your money can go to what matters. Join the
+        early-access list.
+      </p>
+
+      <form
+        action="https://formspree.io/f/mgaoqvkl"
+        method="POST"
+        class="flex w-full max-w-md flex-col gap-3 sm:flex-row"
+      >
+        <label class="sr-only" for="email">Email address</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Your email address"
+          required
+          class="min-w-0 flex-grow rounded-lg border border-[#cdddcf] bg-[#f7faf5] px-4 py-3 text-[#183b2b] placeholder-[#8a9d8e] outline-none transition focus:border-[#6ca77a] focus:ring-2 focus:ring-[#d9efdf]"
+        />
+        <button
+          type="submit"
+          class="cursor-pointer rounded-lg bg-[#39734d] px-6 py-3 font-semibold text-white transition hover:bg-[#2e6240] focus:outline-none focus:ring-2 focus:ring-[#8fbea0] focus:ring-offset-2"
+        >
+          Get early access
+        </button>
+      </form>
+
+      <p class="mt-3 text-xs text-[#829286]">
+        No spam. Unsubscribe at any time.
+      </p>
+    </main>
+
+    <footer
+      class="w-full border-t border-[#e2ebe3] px-6 py-6 text-center text-sm text-[#829286]"
+    >
+      &copy; 2026 The Tree. All rights reserved.
+    </footer>
+  </body>
+</html>
